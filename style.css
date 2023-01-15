@@ -62,7 +62,9 @@ header {
     border-radius: 5px;
 
 }
-
+.nav-icon{
+    display: none;
+}
 .nav-title {
     width: 800px;
     text-align: center;
@@ -519,6 +521,9 @@ header {
         grid-template-columns: repeat(1, 1fr);
         justify-content: start;
         padding-bottom: 107px;
+    }
+    .exta-some{
+        margin-top: -100px;
     }
 
     .card {
