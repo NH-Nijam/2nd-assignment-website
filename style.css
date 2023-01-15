@@ -11,7 +11,7 @@ body {
 header {
     background: rgba(255, 144, 14, 0.1);
     width: 100%;
-    height: 1100px;
+    height: 1050px;
 
 }
 
@@ -19,7 +19,6 @@ header {
     width: 80%;
     margin: 0px auto;
     padding-top: 50px;
-
 }
 
 .nav-section {
@@ -98,6 +97,11 @@ header {
     font-weight: 600;
     color: #FFFF;
 }
+.primary-btn:hover{
+    box-shadow: 2px 2px 2px 2px rgb(235, 114, 114);
+    background-color: red;
+    width: 200px;
+}
 
 .img-section img {
     width: 100%;
@@ -132,6 +136,9 @@ header {
 .tems img {
     width: 100%;
 }
+.tems img:hover{
+    box-shadow: 2px 2px 15px 2px blue;
+}
 
 .future-content {
     width: 50%;
@@ -156,7 +163,212 @@ header {
     color: #727272;
     margin-bottom: 32px;
 }
+
 /* future section style end*/
+/* -- love and enjoy style start -- */
+.love-enjoy-section {
+    display: flex;
+    gap: 54px;
+    margin-top: 100px;
+}
+
+.love {
+    width: 50%;
+}
+
+.love-row {
+    width: 80%;
+    height: 100px;
+    padding: 30px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 10px 2px rgb(248, 246, 246);
+    border: 0;
+    border-radius: 5px;
+}
+.love-row:hover{
+    box-shadow: 2px 2px 15px 2px blue;
+}
+.love-title {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    border-left: 4px solid #FF900E;
+    padding-left: 15px;
+}
+
+.enjoy-img img {
+    width: 80%;
+    height: 100%;
+    padding-left: 90px;
+}
+.enjoy-img img:hover{
+    box-shadow: 2px 2px 15px 2px blue;
+}
+
+.experience-year {
+    background-color: #FF900E;
+    width: 30%;
+    text-align: center;
+    padding: 40px;
+    position: relative;
+    top: -115px;
+    border: 0;
+    border-radius: 8px;
+}
+.experience-year:hover{
+    box-shadow: 2px 2px 15px 2px blue;
+}
+.experience-yea,
+.year-title {
+    font-size: 50px;
+    color: #fff;
+}
+
+.experience-yea,
+.year-sub-title {
+    color: #fff;
+}
+
+/* -- love and enjoy style end  -- */
+
+/* -- some gacts style start-- */
+.some-facts-section {
+    margin-top: 100px;
+}
+
+.some-facts-title {
+    width: 258px;
+    height: 53px;
+    font-weight: 700;
+    font-size: 45px;
+
+}
+
+.some-facts-description {
+    width: 50%;
+    height: 52px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 100px;
+}
+
+.some-facts-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-bottom: 107px;
+}
+
+.card {
+    border: 1px solid #FF900E;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.card .card-row {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+.card:hover{
+    background-color: #7b79e7;
+    color: #fff;
+}
+.card .card-row:hover{
+    transform: rotate(45deg);
+    color: #FF900E;
+}
+.card-row:hover{
+    background-color: green;
+    color: #fff;
+}
+.card-sub-title:hover{
+    color: #fff;
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.card-sub-title {
+    font-weight: 600;
+    font-size: 15px;
+    color: #727272;
+}
+
+
+
+/* -- some gacts style start-- */
+
+/* -- our sponspors section start -- */
+
+.sponspor-section {
+    width: 50%;
+    height: 129px;
+    margin: 0px auto 50px;
+    text-align: center;
+}
+
+.sponspor-title {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.sponspors-card{
+    margin-left: 10px;
+}
+.sponspors-card:hover{
+    box-shadow: 2px 2px 15px 2px blue;
+    padding: 10px;
+    margin: 10px;
+}
+.sponspor-card-section {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.sponspors{
+    margin-bottom: 50px;
+}
+/* -- our sponspors section end -- */
+
+
+
+/* footer style start */
+.footer {
+    width: 80%;
+    margin: 130px auto;
+    background: #FFF4E7;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.footer-description {
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+    padding: 39px 0px;
+}
+
+/* footer style end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -174,6 +386,7 @@ header {
         width: 90%;
         margin: 0px auto;
         padding-top: 50px;
+        
     }
 
     .nav-section {
@@ -208,6 +421,9 @@ header {
         padding: 5px 10px;
         font-size: 10px;
     }
+    .primary-btn:hover{
+        width: 100px;
+    }
 
     .menu-bar ul {
         position: absolute;
@@ -236,27 +452,139 @@ header {
         display: flex;
         flex-direction: column;
         gap: 0;
+        height: 100%;
     }
+
     .future-img {
         grid-template-columns: repeat(1, 1fr);
     }
+
     .future-content {
         width: 80%;
         height: 240px;
         position: relative;
-        left: 45px;
+        top: 10px;
+
     }
-    
+
     .future-title {
         font-size: 35px;
         margin-bottom: 10px;
     }
-    
+
     .future-description {
         font-size: 15px;
         color: #727272;
         margin-bottom: 20px;
     }
+
     /* future section style end */
+
+    /* -- love and enjoy style start -- */
+    .love-enjoy-section {
+        flex-direction: column;
+        margin-top: 0px;
+        height: 1900px;
+    }
+
+    .love {
+        width: 100%;
+    }
+
+    .enjoy-img img {
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .experience-year {
+        padding: 10px;
+        top: 20px;
+        left: 35%;
+    }
+
+    .experience-yea,
+    .year-title {
+        font-size: 25px;
+        color: #fff;
+    }
+
+    /* -- some gacts style start-- */
+
+    .some-facts-description {
+        margin-top: 10px;
+        width: 90%;
+    }
+
+    .some-facts-card {
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: start;
+        padding-bottom: 107px;
+    }
+
+    .card {
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 20px;
+    }
+    .card .card-row {
+        width: 50%;
+    }
+    .card .card-row {
+        width: 60%;
+
+    }
+
+    .card-title {
+        font-size: 50px;
+    }
+
+    .card-sub-title {
+        font-weight: 600;
+        font-size: 25px;
+        color: #727272;
+    }
+    
+    .card .card-row:hover{
+        transform: rotate(-4deg);
+        color: #FF900E;
+    }
+    
+
+    /* -- some gacts style end-- */
+    /* -- our sponspors section start -- */
+    .sponspor-section {
+        width: 100%;
+        margin: 0px auto 50px;
+        text-align: center;
+
+    }
+
+    .sponspor-title {
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 24px;
+        width: 100%;
+    }
+
+    .sponspors-desccription {
+        width: 100%;
+    }
+
+    .sponspor-card-section {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .sponspors-card {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    /* -- our sponspors section start end-- */
+    /* footer style start */
+    .footer-description{
+        font-size: 12px;
+
+    }
+    /* footer style  end */
 
 }
